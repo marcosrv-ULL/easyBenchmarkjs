@@ -2,7 +2,7 @@
   "name": "@marcosrv-ull/easybenchmarkjs",
   "version": "1.0.5",
   "description": "a light tool to benchmark functions in js",
-  "main": "index.js",
+  "main": "src/easybenchmark.js",
   "scripts": {
     "test": "mocha",
     "doc": "documentation build src/** -f html -o docs"
