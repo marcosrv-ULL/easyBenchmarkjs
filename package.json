@@ -1,6 +1,6 @@
 {
   "name": "@marcosrv-ull/easybenchmark.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a light tool to benchmark functions in js",
   "main": "index.js",
   "scripts": {
