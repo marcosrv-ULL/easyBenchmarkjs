@@ -3,7 +3,7 @@
  * Grado en ingeniería informatica
  * Programación de aplicaciones interactivas
  * @author Marcos Rodríguez Vega
- * @since Feb 16 03 2022
+ * @since Feb 17 03 2022
  * @desc  The main functions of the module
  */
 
