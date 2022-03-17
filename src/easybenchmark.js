@@ -17,9 +17,9 @@
 const fastBench = (func, input, timeToBeExecute = 10) => {
     let totalTime = 0;
     for (let i = 0; i < timeToBeExecute; i++) {
-        const start = new Date;
+        const start = performance.now();
         func(...input);
-        const finish = new Date;
+        const finish = performance.now();
         totalTime += finish - start;
     }
     return (totalTime / timeToBeExecute); // return the mean
@@ -28,3 +28,5 @@ const fastBench = (func, input, timeToBeExecute = 10) => {
 module.exports = {
     fastBench
 };
+
+console.log(fastBench(function(a, b) { return a + b; }, [1, 2], 10));
