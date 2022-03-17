@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/%40marcosrv-ull%2Feasybenchmark.js.svg)](https://badge.fury.io/js/%40marcosrv-ull%2Feasybenchmark.js)
+[![npm version](https://badge.fury.io/js/%40marcosrv-ull%2Feasybenchmarkjs.svg)](https://badge.fury.io/js/%40marcosrv-ull%2Feasybenchmarkjs)
 
 ## easybenchmark.js
 
