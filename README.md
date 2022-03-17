@@ -50,7 +50,7 @@ marcosrv-ull
 
 ## Tests
 
-ejecute:
+Execute:
 ```
 npm run versions
 mocha
