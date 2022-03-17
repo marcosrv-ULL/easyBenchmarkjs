@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/marcosrv-ULL/easyBenchmarkjs/issues"
   },
+  "devDependencies": {
+    "chai": "latest"
+  },
   "homepage": "https://github.com/marcosrv-ULL/easyBenchmarkjs#readme"
 }
