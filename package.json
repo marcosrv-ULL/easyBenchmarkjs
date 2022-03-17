@@ -22,8 +22,7 @@
     "url": "https://github.com/marcosrv-ULL/easyBenchmarkjs/issues"
   },
   "devDependencies": {
-    "chai": "latest",
-    "documentation": "^13.2.5"
+    "chai": "latest"
   },
   "homepage": "https://github.com/marcosrv-ULL/easyBenchmarkjs#readme",
   "dependencies": {
