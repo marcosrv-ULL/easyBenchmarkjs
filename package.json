@@ -4,7 +4,8 @@
   "description": "a light tool to benchmark functions in js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "doc": "documentation build src/** -f html -o docs"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
     "url": "https://github.com/marcosrv-ULL/easyBenchmarkjs/issues"
   },
   "devDependencies": {
-    "chai": "latest"
+    "chai": "latest",
+    "documentation": "^13.2.5"
   },
   "homepage": "https://github.com/marcosrv-ULL/easyBenchmarkjs#readme",
   "dependencies": {
