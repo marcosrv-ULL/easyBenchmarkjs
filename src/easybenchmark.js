@@ -15,6 +15,7 @@
  * @return {array} the time elapse in milliseconds
  */
 const fastBench = (func, input, timeToBeExecute = 10) => {
+
     let totalTime = 0;
     for (let i = 0; i < timeToBeExecute; i++) {
         const start = performance.now();
@@ -28,5 +29,3 @@ const fastBench = (func, input, timeToBeExecute = 10) => {
 module.exports = {
     fastBench
 };
-
-console.log(fastBench(function(a, b) { return a + b; }, [1, 2], 10));
