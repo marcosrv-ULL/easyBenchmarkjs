@@ -9,13 +9,14 @@ A really light tool to benchmark functions in js
 For the package installation you only have to:
 
 ```
-npm i @marcosrv-ull/easybenchmark.js
+npm i @marcosrv-ull/easybenchmarkjs
 ```
 
 ## Usage from code:
 
 ```javascript
-const { fastBench } = require('@marcosrv-ULL/easybenchmark.js');
+const easybenchmarkjs = require('@marcosrv-ULL/easybenchmarkjs');
+const fastBench = easybenchmarkjs.fastBench;
 ```
 
 [The documentation of the function](https://marcosrv-ull.github.io/easyBenchmarkjs/).
@@ -24,7 +25,8 @@ const { fastBench } = require('@marcosrv-ULL/easybenchmark.js');
 
 This is the main idea of the function:
 ```javascript
-const { fastBench } = require('@marcosrv-ULL/easybenchmark.js');
+const easybenchmarkjs = require('@marcosrv-ULL/easybenchmarkjs');
+const fastBench = easybenchmarkjs.fastBench;
 
 const myFunction = (whatEverAreTheParams) => {
     // Do things
@@ -37,7 +39,7 @@ let argumentB;
 .
 .
 let argumentN;
-console.log(`Mean time elapsed with ${TIMES_TO_BE_EXECUTED} executions: ${fastBench(myFunction, [argumentA, argumentB, ..., argumentN], TIMES_TO_BE_EXECUTED)} ms`);
+console.log(`Mean time elapsed with ${TIMES_TO_BE_EXECUTED} executions: ${easybenchmarkjs.fastBench(myFunction, [argumentA, argumentB, ..., argumentN], TIMES_TO_BE_EXECUTED)} ms`);
 ```
 
 Output:

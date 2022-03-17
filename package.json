@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/marcosrv-ULL/easyBenchmarkjs#readme",
   "dependencies": {
-    "@marcosrv-ull/easybenchmark": "^1.0.4",
     "mocha": "^9.2.2"
   }
 }
