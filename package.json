@@ -1,0 +1,24 @@
+{
+  "name": "@marcosrv-ull/easybenchmark.js",
+  "version": "1.0.0",
+  "description": "a light tool to benchmark functions in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrv-ULL/easyBenchmarkjs.git"
+  },
+  "keywords": [
+    "benchmark",
+    "easy",
+    "javascript"
+  ],
+  "author": "Marcos Rodríguez Vega <alu0101266329@ull.edu.es> (https://github.com/marcosrv-ULL)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosrv-ULL/easyBenchmarkjs/issues"
+  },
+  "homepage": "https://github.com/marcosrv-ULL/easyBenchmarkjs#readme"
+}
